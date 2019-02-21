@@ -8,13 +8,17 @@
         line-height: 2;
     }
     .jumbotron {
-    text-align: center;
+        text-align: center;
+    }
+
+    .btn-lg {
+        width: 55vh; 
     }
 
 </style>
 
      <!--bootstrap-->
-     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"/>
+     <link rel="stylesheet" href="css.css"/>
     
 <head>
        <!--responsiveness and compatibility-->
@@ -22,11 +26,6 @@
        <meta http-equiv="X-UA-Compatible" content="IE=edge">
        <meta name="viewport" content="width=device-width, initial-scale=1">
        <title>ZPL Index</title>
-       <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"/>
-            <!--[if lt IE 9]>
-              <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-              <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-            <![endif]-->
 </head>
 
 <body>
@@ -34,20 +33,19 @@
                 <div class="container">
                     <h1>ZPL Index</h1>
                  <br>
-                 <div class="btn-group">
-                        <button href="" role="button" class="btn btn-primary btn-lg dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">2019 <span class="caret"></span></button>
-                        <ul class="dropdown-menu">
-                                <li><a href="https://drive.google.com/drive/folders/10VqMJo2pkLFgr3pzxx0AF3K_w0NORxhg" target="_blank">ZPL Kids</a></li>
-                                <li><a href="https://drive.google.com/drive/folders/1EPx2ARiOp4LQ0IkaMvvI-LX4vgr_tnbK" target="_blank">ZPL Junior</a></li>
-                        </ul>
-                     </div>
+                                        
+                                <a href="https://drive.google.com/drive/folders/10VqMJo2pkLFgr3pzxx0AF3K_w0NORxhg" class="btn btn-primary btn-lg" role="button" target="_blank">ZPL Kids Statistics Repo</a><figcaption>Last updated: Feb 20, 2019</figcaption>
+                                <br>
+                                <a href="https://drive.google.com/drive/folders/1EPx2ARiOp4LQ0IkaMvvI-LX4vgr_tnbK" class="btn btn-primary btn-lg" role="button" target="_blank">ZPL Junior Statistics Repo</a><figcaption>Last updated: Feb 15, 2019</figcaption>
+                        
+            
                  </div>
                <div class="container">
         </section>
         <!--jquery-->
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+        <script src="jquery.js"></script>
         <!--js/-->
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <script src="bs.js"></script>
 </body>
 
 </html>
