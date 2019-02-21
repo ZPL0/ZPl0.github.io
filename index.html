@@ -1,19 +1,41 @@
 <!DOCTYPE html>
 <html lang="es">
 <style>
-    * { 
-        margin: 0;
-        padding: 0;
-        font-family: 'Open Sans', sans-serif;
-        line-height: 2;
-    }
-    .jumbotron {
+    html{ height:100%;  line-height: 2;}
+body{ min-height:100%; padding:0; margin:0; position:relative;}
+
+body::after{ content:''; display:block; height:100px; }
+
+footer{ 
+  position:absolute; 
+  bottom:0; 
+  width:100%; 
+  height:100px; 
+}
+.jumbotron {
         text-align: center;
     }
 
-    .btn-lg {
+.btn-lg {
         width: 55vh; 
     }
+
+#footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    background-color: white;
+    width: 100%;
+    height: 150px;
+    box-shadow: 0px 2px 5px 1px rgba(48,48,57,0.4);
+}
+
+img {
+    height: 25px;
+    width: 25px;
+}
 
 </style>
 
@@ -48,4 +70,11 @@
         <script src="bs.js"></script>
 </body>
 
+<footer id="footer">
+    <p>Contact & Support:</p>
+
+    <div class="ib"><img src="ws.png"> +1 (253) 392 3956</div>
+<br>
+    <div class="ib"><img src="ws.png"> +58 412 102 3592</div>
+</footer>
 </html>
